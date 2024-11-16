@@ -38,20 +38,23 @@ nav ul li a {
 }
 
 /* Sección de Inicio */
-section#inicio {
-    background-image: url('https://wallpapers.com/images/hd/stars-computer-dx7txl9k2jde2l1p.jpg');
-    background-size: cover; /* Asegura que la imagen cubra toda la sección */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-attachment: fixed; /* Fija la imagen durante el scroll */
-    height: 100vh; /* Ajusta la altura a la altura total de la ventana */
-    display: flex; /* Para centrar el contenido */
-    justify-content: center; /* Centrado horizontal */
-    align-items: center; /* Centrado vertical */
-    text-align: center; /* Centrado del texto */
-    padding: 20px; /* Espaciado interno para el contenido */
-    color: white; /* Mantén el texto blanco */
+#inicio {
+    position: relative;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('https://cdn.masmovil.es/embed/0448c514bcaf55d07114bf8c400781030d3c09e91656962759/super-mario-galaxy.jpeg?imagick=1&size=750');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 1000px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
+
+
 #inicio::before {
     content: "";
     position: absolute;
@@ -267,11 +270,23 @@ footer {
     #producto {
         flex-direction: column;
     }
+    section#inicio {
+        background-attachment: scroll; /* El fondo se desplaza con el contenido en pantallas pequeñas */
+        background-size: auto 100%; /* Ajuste de la imagen en altura para que se vea bien */
+        height: auto; /* Altura adaptativa en pantallas pequeñas */
+        padding: 10px; /* Menos espaciado para dispositivos pequeños */
+    }
 }
 
 @media (max-width: 480px) {
     .productos {
         grid-template-columns: 1fr;
     }
+    section#inicio {
+        background-size: auto 100%; /* Ajuste aún más específico para pantallas pequeñas */
+        height: auto; /* Altura flexible */
+        padding: 5px; /* Reducción del espaciado */
+    }
+
 }
 
