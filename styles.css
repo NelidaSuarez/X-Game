@@ -63,7 +63,7 @@ nav ul li a {
     z-index: 1;
 }
 
-#inicio h2, #inicio p, #inicio button {
+#inicio h2, #inicio p{
     position: relative;
     z-index: 2;
     margin: 0.5em 0;
@@ -139,7 +139,8 @@ video {
     gap: 1em;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
-    
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .producto {
@@ -253,13 +254,19 @@ footer {
     #inicio{
         background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/analisis-super-mario-bros-wonder-3198058.jpg?tf=1200x);
         display: flex;
-    justify-content: center;
+        justify-content: center;
     }
+    .h2{
+        font-size: 1em;
+        color: black;
+        text-shadow: #fff(5,5,5,5);
+    }
+    
     
     .productos {
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     #producto {
         flex-direction: column;
@@ -268,14 +275,17 @@ footer {
 
 @media (max-width: 480px) {
     #inicio{
-        background-image: url(https://i.pinimg.com/originals/9e/46/d2/9e46d2905d70d779a552ff036d5e5b1e.png);
+        background-image: url(https://kitsparaimprimirgratis.com/wp-content/uploads/2018/08/etiquetas-circulares-Mario-Bros.png);
         display: flex;
     justify-content: center;
     }
+    .h2{
+        font-size: 1em;
+    }
     .productos {
         grid-template-columns: 1fr;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
