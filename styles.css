@@ -278,9 +278,14 @@ footer {
         background-image: url(https://kitsparaimprimirgratis.com/wp-content/uploads/2018/08/etiquetas-circulares-Mario-Bros.png);
         display: flex;
     justify-content: center;
+    
     }
     .h2{
         font-size: 1em;
+        
+    }
+    .p{
+        color: #06103E;
     }
     .productos {
         grid-template-columns: 1fr;
