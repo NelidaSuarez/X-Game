@@ -258,6 +258,8 @@ footer {
     
     .productos {
         grid-template-columns: repeat(2, 1fr);
+        margin-left: 5px;
+        margin-right: 5px;
     }
     #producto {
         flex-direction: column;
@@ -266,7 +268,7 @@ footer {
 
 @media (max-width: 480px) {
     #inicio{
-        background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/analisis-super-mario-bros-wonder-3198058.jpg?tf=1200x);
+        background-image: url(https://i.pinimg.com/originals/9e/46/d2/9e46d2905d70d779a552ff036d5e5b1e.png);
         display: flex;
     justify-content: center;
     }
