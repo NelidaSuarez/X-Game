@@ -51,7 +51,7 @@ nav ul li a {
     background-position: center;
     color: #fff;
     height: 1000px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    
 }
 
 #inicio::before {
@@ -250,10 +250,11 @@ footer {
 
 /* Diseño Responsivo */
 @media (max-width: 768px) {
+    
+    
     .productos {
         grid-template-columns: repeat(2, 1fr);
     }
-
     #producto {
         flex-direction: column;
     }
