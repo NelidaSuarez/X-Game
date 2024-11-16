@@ -250,7 +250,11 @@ footer {
 
 /* Diseño Responsivo */
 @media (max-width: 768px) {
-    
+    #inicio{
+        background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/analisis-super-mario-bros-wonder-3198058.jpg?tf=1200x);
+        display: flex;
+    justify-content: center;
+    }
     
     .productos {
         grid-template-columns: repeat(2, 1fr);
@@ -261,6 +265,11 @@ footer {
 }
 
 @media (max-width: 480px) {
+    #inicio{
+        background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/analisis-super-mario-bros-wonder-3198058.jpg?tf=1200x);
+        display: flex;
+    justify-content: center;
+    }
     .productos {
         grid-template-columns: 1fr;
     }
