@@ -274,6 +274,8 @@ footer {
     }
     .productos {
         grid-template-columns: 1fr;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
 
