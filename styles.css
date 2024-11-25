@@ -46,7 +46,7 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url('https://cdn.masmovil.es/embed/0448c514bcaf55d07114bf8c400781030d3c09e91656962759/super-mario-galaxy.jpeg?imagick=1&size=750');
+    
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -63,14 +63,25 @@ nav ul li a {
     z-index: 1;
 }
 
-#inicio h2, #inicio p{
-    position: relative;
-    z-index: 2;
-    margin: 0.5em 0;
+.star {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    width: 650px; 
+   
 }
 
-#inicio h2 {
-    font-size: 2em;
+.title {
+    position: relative;
+    z-index: 2; 
+    color: #6c29d6; 
+}
+.sub-tiltle{
+    position: relative;
+    z-index: 2; 
+    color: #6c29d6; 
 }
 
 
@@ -286,6 +297,7 @@ footer {
     }
     .p{
         color: #06103E;
+        text-shadow: red;
     }
     .productos {
         grid-template-columns: 1fr;

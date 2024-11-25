@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "PLANET-COASTER2",
+        "precio": 5000,
+        "imagen": "https://gaming-cdn.com/images/products/17213/616x353/planet-coaster-2-pc-game-steam-europe-and-us-and-canada-cover.jpg?v=1731594936"
+    },
+    {
+        "id": 2,
+        "nombre": "DRAGON QUEST III HD-2D REMAKE",
+        "precio": 6000,
+        "imagen": "https://gaming-cdn.com/images/products/17212/616x353/dragon-quest-iii-hd-2d-remake-remake-pc-juego-steam-cover.jpg?v=1731420624"
+    },
+    {
+        "id": 3,
+        "nombre": "HEARTS OF IRON IV PC ESPAÑOL",
+        "precio": 6500,
+        "imagen": "https://i0.wp.com/pivigames.blog/wp-content/uploads/2024/08/Hearts-Of-Iron-Gotterdammerng-Pivigames.jpg?w=616&ssl=1"
+    }
+]
