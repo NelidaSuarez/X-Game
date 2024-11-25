@@ -1,20 +1,104 @@
-[
-    {
-        "id": 1,
-        "nombre": "PLANET-COASTER2",
-        "precio": 5000,
-        "imagen": "https://gaming-cdn.com/images/products/17213/616x353/planet-coaster-2-pc-game-steam-europe-and-us-and-canada-cover.jpg?v=1731594936"
-    },
-    {
-        "id": 2,
-        "nombre": "DRAGON QUEST III HD-2D REMAKE",
-        "precio": 6000,
-        "imagen": "https://gaming-cdn.com/images/products/17212/616x353/dragon-quest-iii-hd-2d-remake-remake-pc-juego-steam-cover.jpg?v=1731420624"
-    },
-    {
-        "id": 3,
-        "nombre": "HEARTS OF IRON IV PC ESPAÑOL",
-        "precio": 6500,
-        "imagen": "https://i0.wp.com/pivigames.blog/wp-content/uploads/2024/08/Hearts-Of-Iron-Gotterdammerng-Pivigames.jpg?w=616&ssl=1"
+{
+    "catalogo": {
+      "titulo": "꧁༒☬Catálogo de juegos☬༒꧂",
+      "productos": [
+        {
+          "id": 1,
+          "nombre": "PLANET-COASTERr2",
+          "precio": 5000,
+          "imagen": "https://gaming-cdn.com/images/products/17213/616x353/planet-coaster-2-pc-game-steam-europe-and-us-and-canada-cover.jpg?v=1731594936",
+          "descripcion": "Juego de simulación de parques de atracciones.",
+          "boton": "Agregar al Carrito"
+        },
+        {
+          "id": 2,
+          "nombre": "DRAGON QUEST III HD-2D REMAKE",
+          "precio": 6000,
+          "imagen": "https://gaming-cdn.com/images/products/17212/616x353/dragon-quest-iii-hd-2d-remake-remake-pc-juego-steam-cover.jpg?v=1731420624",
+          "descripcion": "Clásico RPG con gráficos en HD-2D.",
+          "boton": "Agregar al Carrito"
+        },
+        {
+          "id": 3,
+          "nombre": "HEARTS OF IRON IV PC ESPAÑOL",
+          "precio": 6500,
+          "imagen": "https://i0.wp.com/pivigames.blog/wp-content/uploads/2024/08/Hearts-Of-Iron-Gotterdammerng-Pivigames.jpg?w=616&ssl=1",
+          "descripcion": "Juego de estrategia en tiempo real ambientado en la Segunda Guerra Mundial.",
+          "boton": "Agregar al Carrito"
+        },
+        {
+          "id": 4,
+          "nombre": "LEGO H0RIZ0N ADVENTUR3S PC ESPAÑOL",
+          "precio": 9000,
+          "imagen": "https://i0.wp.com/pivigames.blog/wp-content/uploads/2024/11/lego-horizon-adventures-pc-juego-steam-latin-america-cover.jpg?w=616&ssl=1",
+          "descripcion": "Aventura con personajes de LEGO.",
+          "boton": "Agregar al Carrito"
+        },
+        {
+          "id": 5,
+          "nombre": "STARDEW VALLEY PC ESPAÑOL",
+          "precio": 6000,
+          "imagen": "https://i0.wp.com/pivigames.blog/wp-content/uploads/2017/06/Stardew-Valley-Free-Download.jpg?w=620&ssl=1",
+          "descripcion": "Juego de simulación de granja con elementos RPG.",
+          "boton": "Agregar al Carrito"
+        },
+        {
+          "id": 6,
+          "nombre": "SUPERMARKET SIMULATOR PC ESPAÑOL",
+          "precio": 6000,
+          "imagen": "https://i0.wp.com/pivigames.blog/wp-content/uploads/2024/03/Supermarket-Simulator-Pivigames.jpg?w=660&ssl=1",
+          "descripcion": "Juego de simulación de supermercado.",
+          "boton": "Agregar al Carrito"
+        },
+        {
+          "id": 7,
+          "nombre": "AGE OF MYTHOLOGY RETOLD PC ESPAÑOL",
+          "precio": 9000,
+          "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1934680/capsule_616x353.jpg?t=1731002371",
+          "descripcion": "Estrategia en tiempo real con mitología.",
+          "boton": "Agregar al Carrito"
+        },
+        {
+          "id": 8,
+          "nombre": "VALHEIM PC ESPAÑOL",
+          "precio": 8000,
+          "imagen": "https://i0.wp.com/pivigames.blog/wp-content/uploads/2023/08/Valheim-Ultima-Version-Pivigames.jpg?w=616&ssl=1",
+          "descripcion": "Survival ambientado en un mundo nórdico.",
+          "boton": "Agregar al Carrito"
+        },
+        {
+          "id": 9,
+          "nombre": "PHASMOPHOBIA PC ESPAÑOL",
+          "precio": 7000,
+          "imagen": "https://i0.wp.com/pivigames.blog/wp-content/uploads/2023/10/Phasmophobia-Halloween-Update-Pivigames.png?resize=780%2C439&ssl=1",
+          "descripcion": "Juego de terror cooperativo.",
+          "boton": "Agregar al Carrito"
+        },
+        {
+          "id": 10,
+          "nombre": "HORIZON 0 D4WN REMASTERED PC",
+          "precio": 9500,
+          "imagen": "https://i0.wp.com/pivigames.blog/wp-content/uploads/2024/11/Horizon-Zero-Dawn-Remastered-Pivigames.jpg?w=660&ssl=1",
+          "descripcion": "Aventura de mundo abierto remasterizada.",
+          "boton": "Agregar al Carrito"
+        },
+        {
+          "id": 11,
+          "nombre": "PALWORLD PC ESPAÑOL",
+          "precio": 6000,
+          "imagen": "https://i0.wp.com/pivigames.blog/wp-content/uploads/2024/01/Palworld-ultima-version-Juego-PC-Pivigames.jpg?w=576&ssl=1",
+          "descripcion": "Aventura con criaturas y exploración.",
+          "boton": "Agregar al Carrito"
+        },
+        {
+          "id": 12,
+          "nombre": "STELLARIS PC ESPAÑOL",
+          "precio": 6000,
+          "imagen": "https://i0.wp.com/pivigames.blog/wp-content/uploads/2024/10/Stellaris-Grand-Archive-juego-completo-PC.jpg?w=616&ssl=1",
+          "descripcion": "Juego de estrategia espacial.",
+          "boton": "Agregar al Carrito"
+        }
+      ]
     }
-]
+  }
+  

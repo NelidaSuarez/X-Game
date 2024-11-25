@@ -13,9 +13,9 @@
 <body>
     
     <header>
-        <nav class="navbar navbar-expand-lg  bg-transparent">
+        <nav  class="navbar navbar-expand-lg fixed-top  menu-navbar">
             <div class="container-fluid">
-                <a class="navbar-brand active" href="#">꧁༒☬𝓧-𝓖𝓪𝓶𝓮𝓻☬༒꧂</a>
+                <a class="navbar-brand " href="#">꧁༒☬𝓧-𝓖𝓪𝓶𝓮𝓻☬༒꧂</a>
                 <button 
                     class="navbar-toggler" 
                     type="button" 
@@ -29,19 +29,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+                            <a class="nav-link " aria-current="page" href="#home">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#video">Video</a>
+                            <a class="nav-link " href="#video">Video</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#Catalogo">Catalogo</a>
+                            <a class="nav-link " href="#Catalogo">Catalogo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#carrito">Carrito</a>
+                            <a class="nav-link " href="#carrito">Carrito</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#contacto">Contáctanos</a>
+                            <a class="nav-link " href="#contacto">Contáctanos</a>
                         </li>
                     </ul>
                 </div>
@@ -50,17 +50,25 @@
         
     </header>
 
-    <section id="inicio"  >
-        <img class="star" src="./images/Estrella04.png" alt="">
-        <h1 class="title">꧁༒☬𝓧-𝓖𝓪𝓶𝓮𝓻☬༒꧂</h1>
-        <p class="sub-tiltle">Encuentra los mejores videojuegos, accesorios y mucho más para todas las plataformas.</p>
-        <p class="sub-tiltle">Compra juegos digitales de forma fácil y segura.</p>
+    <section id="inicio" class="inicio" >
         
+        
+        <article class="title" >
+            <h1>꧁༒☬𝓧-𝓖𝓪𝓶𝓮𝓻☬༒꧂</h1>
+            <picture class="mario">
+                <img id="mario-bros"  src="./images/mario-49307.png" alt="">
+            </picture>
+            <img class="star" src="./images/Estrella04.png" alt="">
+            
+        </article>
+        <p class="sub-title">Encuentra los mejores videojuegos, <br> accesorios y mucho más para todas las plataformas.</p>
+        <p class="sub-title2">Compra juegos digitales de forma fácil y segura.</p>
     </section>
 
-    <section id="video">
-        <h2>Descubre nuestro mundo gamer</h2>
-        <p>Sumérgete en la experiencia gamer con este increíble video.</p>
+    <section class="video ">
+       <article class="container" >
+        <h2 class="video-titulo" >Descubre nuestro mundo gamer</h2>
+        <p class="video-subtitulo">Sumérgete en la experiencia gamer con este increíble video.</p>
         <div class="video-container">
             <iframe 
             src="https://www.youtube.com/embed/D8nRuVS1PQY?si=GEEt-9eqIbR6E9xL" 
@@ -71,16 +79,17 @@
             allowfullscreen>
             </iframe>
         </div>
+       </article>
     </section>
 
-    <section id="Catalogo">
+    <section class="catalogo container">
         <h2 class="h2C" >꧁༒☬𝓒𝓪𝓽á𝓵𝓸𝓰𝓸 𝓭𝓮 𝓳𝓾𝓮𝓰𝓸𝓼☬༒꧂</h2>
         <div class="productos">
             <div class="producto">
                 <img src="https://gaming-cdn.com/images/products/17213/616x353/planet-coaster-2-pc-game-steam-europe-and-us-and-canada-cover.jpg?v=1731594936" alt="Planet-coaster2">
-                <h3>PLANET-COASTERr2</h3>
+                <h3>PLANET-COASTERr2 ESPAÑOL</h3>
                 <p>$5.000</p>
-                <button aria-label="Agregar al Carrito">Agregar al Carrito</button>
+                <button class="boton-violeta" aria-label="Agregar al Carrito">Agregar al Carrito</button>
             </div>
             <div class="producto">
                 <img src="https://gaming-cdn.com/images/products/17212/616x353/dragon-quest-iii-hd-2d-remake-remake-pc-juego-steam-cover.jpg?v=1731420624" alt="Dragon Quest III HD-2D Remake">
@@ -154,15 +163,17 @@
 
    
 
-    <section id="carrito">
-        <h2>Tu Carrito</h2>
+    <!-- <section class="carrito  ">
+        <article class="container">
+            <h2>Tu Carrito</h2>
         <div class="carrito-items">
             <p>No tienes productos en el carrito.</p>
         </div>
         <button>Finalizar Compra</button>
-    </section>
+        </article>
+    </section> -->
 
-    <section id="contacto">
+    <section id="contacto" class="contacto-formulario">
         <h2>Contacto</h2>
         <form id="contactForm" method="POST">
             <label for="nombre">Nombre:</label>
@@ -174,10 +185,10 @@
             <label for="message">Mensaje:</label>
             <textarea id="message" name="message" required></textarea>
             
-            <button type="submit">Enviar</button>
+            <button class="boton-violeta" type="submit">Enviar</button>
         </form>
         
-        <div id="formMessage" style="display: none; margin-top: 20px; color: green;">
+        <div id="formMessage" style="display: none; margin-top: 20px; ">
             ¡Gracias! Tu mensaje ha sido enviado.
         </div>
     </section>
@@ -216,11 +227,12 @@
             }
         });
     </script>
-    <script src="index.js"></script>
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <footer>
         <p>&copy; 2024 Tienda Gamer. Todos los derechos reservados. Designed by <span>Nélida Súarez</span></p>
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
