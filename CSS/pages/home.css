@@ -1,0 +1,112 @@
+/* seccion video */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; 
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    border: none;
+}
+
+.video {
+    text-align: center;
+    padding: 20px;
+    padding-top: 3rem;   
+    background-color: #000116;
+    margin-bottom: 20px;
+    
+}
+
+.video-titulo {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.video-subtitulo {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.video-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* seccion catalogo */
+.catalogo {
+    background-color: #1B0631;
+    padding: 2em;
+}
+.titulo-catalogo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.contenedor-productos{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    #inicio{
+        background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/analisis-super-mario-bros-wonder-3198058.jpg?tf=1200x);
+        display: flex;
+        justify-content: center;
+    }
+    .h2{
+        font-size: 1em;
+        color: black;
+        text-shadow: #fff(5,5,5,5);
+    }
+    
+    
+    .productos {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #producto {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    #inicio{
+        background-image: url(https://kitsparaimprimirgratis.com/wp-content/uploads/2018/08/etiquetas-circulares-Mario-Bros.png);
+        display: flex;
+    justify-content: center;
+    
+    }
+    .h2{
+        font-size: 1em;
+        
+    }
+    .p{
+        color: #06103E;
+        text-shadow: red;
+    }
+    .productos {
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

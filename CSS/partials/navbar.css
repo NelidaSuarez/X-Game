@@ -1,0 +1,37 @@
+.menu-navbar {
+    background-color: #1B0631;
+    padding: 1.5em;
+    text-align: center;
+    box-shadow: 0 0 40px 0 rgba(209, 207, 207, 0.507);
+    
+    
+}
+.navbar-brand{
+    color: #ececec;
+}
+.navbar-brand:hover{
+    color: #FF69B4;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+     color: #fff;
+}
+
+.navbar-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-link{
+    color: #ececec;
+}
+
+.nav-link:hover{
+    color: #FF69B4;
+}

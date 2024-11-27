@@ -1,0 +1,23 @@
+.card-producto {
+     background-color: transparent;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: center;
+    background-image: linear-gradient(180deg, #F162BA0D 0%, #8B396B66 100%);     
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
+}
+.card-producto:hover {
+    box-shadow: 0 0 20px 4px rgba(156, 82, 156, 0.7), 0 0 40px 8px rgba(128, 0, 128, 0.6); 
+    transform: translateY(-10px); 
+  }
+
+.card-producto img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.card-producto h3 {
+    margin: 1em 0 0.5em;
+}
+

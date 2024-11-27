@@ -1,0 +1,31 @@
+.contacto-formulario {
+    padding: 2em;
+    text-align: center;
+    background-color: #10012A;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    border: 1px solid #777;
+    border-radius: 4px;
+}
+
+form button {
+    background-color:#28094E;
+    border: none;
+    color: #fff;
+    padding: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #28094E;
+}

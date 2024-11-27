@@ -1,0 +1,135 @@
+.inicio {
+    background-image: url(https://wallpapers.com/images/hd/stars-computer-dx7txl9k2jde2l1p.jpg);
+    position: relative;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 1000px;
+    
+}
+
+
+.mario{
+position: absolute;
+left: -95%;
+top: -100%;
+-webkit-animation: slide-in-elliptic-left-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-left-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.mario > img {
+    position: absolute;
+}
+
+
+.star {
+    position: absolute;
+    top: -100%; 
+    right: -50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    width: 200px; 
+   margin-top: 5px;
+   -webkit-animation: rotate-scale-up 0.75s linear ;
+	        animation: rotate-scale-up 0.75s linear ;
+}
+
+  .title{
+        position: relative;
+        
+  }
+
+.title > h1{
+        color: #ffffff;
+        font-size: 4rem;
+}
+.sub-title {
+    padding-top: 2rem;        
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.sub-title-span{
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-transform:uppercase;
+  
+}
+.contenedor-btn-inicio{
+
+  margin: 2rem;
+  gap: 2rem;
+  
+  }
+
+  
+
+/*estrella*/
+@-webkit-keyframes rotate-scale-up {
+    0% {
+      -webkit-transform:translate(-50%, -50%) scale(1) rotateZ(0);
+              transform:translate(-50%, -50%) scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform:translate(-50%, -50%) scale(2) rotateZ(180deg);
+              transform:translate(-50%, -50%) scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform:translate(-50%, -50%) scale(1) rotateZ(360deg);
+              transform:translate(-50%, -50%) scale(1) rotateZ(360deg);
+    }
+  }
+  @keyframes rotate-scale-up {
+    0% {
+      -webkit-transform:translate(-50%, -50%) scale(1) rotateZ(0);
+              transform:translate(-50%, -50%) scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform:translate(-50%, -50%) scale(2) rotateZ(180deg);
+              transform:translate(-50%, -50%) scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform:translate(-50%, -50%) scale(1) rotateZ(360deg);
+              transform:translate(-50%, -50%) scale(1) rotateZ(360deg);
+    }
+  }
+
+  /*mario*/
+  @-webkit-keyframes slide-in-elliptic-left-fwd {
+    0% {
+      -webkit-transform: translateX(-800px) rotateY(30deg) scale(0);
+              transform: translateX(-800px) rotateY(30deg) scale(0);
+      -webkit-transform-origin: -100% 50%;
+              transform-origin: -100% 50%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotateY(0) scale(1);
+              transform: translateX(0) rotateY(0) scale(1);
+      -webkit-transform-origin: 1800px 50%;
+              transform-origin: 1800px 50%;
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-elliptic-left-fwd {
+    0% {
+      -webkit-transform: translateX(-800px) rotateY(30deg) scale(0);
+              transform: translateX(-800px) rotateY(30deg) scale(0);
+      -webkit-transform-origin: -100% 50%;
+              transform-origin: -100% 50%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotateY(0) scale(1);
+              transform: translateX(0) rotateY(0) scale(1);
+      -webkit-transform-origin: 1800px 50%;
+              transform-origin: 1800px 50%;
+      opacity: 1;
+    }
+  }
+  

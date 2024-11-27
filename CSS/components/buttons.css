@@ -1,0 +1,47 @@
+.boton-violeta{
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 170px;
+    background-color: #ececec;
+    background-size: 200% 200%;
+    background-image: linear-gradient(135deg, #8A2BE2 0%, #FF69B4 51%, #8A2BE2 100%);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    border: none;
+    padding: 0.5em 1em;
+    color: white;
+}
+.boton-violeta:hover{
+    background-color: #ff4da9;
+    background-position: 100%;
+}
+    
+.btn-video-inicio{
+    color: #ececec;
+    font-weight:700;
+    transition: color 0.2s ease;
+}
+.btn-video-inicio:hover{
+    color:#FF69B4 ;
+}
+    
+
+
+ .btn-flecha{
+    font-weight: 700;
+    transition: transform 0.3s;
+    display: inline-flex;
+    justify-content: center;
+    gap: 15px; 
+}   
+.btn-flecha:hover .flecha-inicio{
+    transform: rotate(-45deg);
+    transition: transform 0.3s;
+}
+
+
+    
+    
+    
+    
+

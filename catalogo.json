@@ -1,7 +1,4 @@
-{
-    "catalogo": {
-      "titulo": "꧁༒☬Catálogo de juegos☬༒꧂",
-      "productos": [
+      [
         {
           "id": 1,
           "nombre": "PLANET-COASTERr2",
@@ -99,6 +96,5 @@
           "boton": "Agregar al Carrito"
         }
       ]
-    }
-  }
+ 
   
