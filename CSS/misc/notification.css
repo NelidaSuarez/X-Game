@@ -1,0 +1,37 @@
+.globo-notificacion {
+    position: fixed;
+    top: 100px; /* Mueve la notificación a la parte superior */
+    right: 20px;
+    background-image: linear-gradient(135deg, #8A2BE2 0%, #FF69B4 51%, #8A2BE2 100%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    z-index: 1000;
+    animation: aparecerDesaparecer 3s ease-out forwards;
+  }
+  
+  .globo-notificacion.error {
+    background-color: #f44336; /* Rojo error */
+  }
+  
+  @keyframes aparecerDesaparecer {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px); /* Mueve la animación a la parte superior */
+    }
+    10% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    90% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px); /* Sale hacia arriba */
+    }
+  }
+  

@@ -11,9 +11,11 @@
     background-position: center;
     color: #fff;
     height: 1000px;
-    
+    margin: 0;
 }
-
+.content {
+  flex: 1;
+}
 
 .mario{
 position: absolute;

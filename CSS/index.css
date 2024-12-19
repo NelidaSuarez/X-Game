@@ -8,7 +8,7 @@
 
 @import url('./misc/normalize.css');
 @import url('./misc/helpers.css');
-/* @import url('./misc/animations.css'); */
+@import url('./misc/notification.css');
 
 /* PARTIALS */
 
