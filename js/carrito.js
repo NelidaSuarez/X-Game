@@ -2,10 +2,20 @@ const carritoItemsContainer = document.getElementById("carrito-items");
 const totalCompraElement = document.getElementById("total-compra");
 const vaciarCarritoButton = document.getElementById("vaciar-carrito");
 const finalizarCompraButton = document.getElementById("finalizar-compra");
-
+const mensaje = document.getElementById("mensaje");
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
+function mostrarMensaje(texto, tipo = "warning") {
+    mensaje.textContent = texto;
+    mensaje.classList.remove("d-none", "alert-success", "alert-danger", );
+    mensaje.classList.add(`alert-${tipo}`);
+
+    
+    setTimeout(() => {
+        mensaje.classList.add("d-none");
+    }, 2000); 
+}
 
 function renderizarCarrito() {
     carritoItemsContainer.innerHTML = "";
@@ -21,16 +31,16 @@ function renderizarCarrito() {
         const itemHTML = document.createElement("div");
         itemHTML.classList.add("carrito-item", "d-flex", "justify-content-between", "align-items-center", "mb-3");
         itemHTML.innerHTML = `
-            <div >
+            <div>
                 <h5>${producto.nombre}</h5>
                 <p>$${producto.precio}</p>
             </div>
             <div>
-            <button class="btn boton-violeta btn-sm" data-index="${index}">Eliminar</button>
+                <button class="btn boton-violeta btn-sm" data-index="${index}">Eliminar</button>
             </div>
         `;
 
-        //  eliminar producto
+      
         const eliminarButton = itemHTML.querySelector("button");
         eliminarButton.addEventListener("click", () => eliminarProducto(index));
 
@@ -41,32 +51,29 @@ function renderizarCarrito() {
     totalCompraElement.textContent = `Total: $${total}`;
 }
 
-
 function eliminarProducto(index) {
     carrito.splice(index, 1);
     localStorage.setItem("carrito", JSON.stringify(carrito));
     renderizarCarrito();
 }
 
-
 vaciarCarritoButton.addEventListener("click", () => {
     carrito = [];
     localStorage.setItem("carrito", JSON.stringify(carrito));
     renderizarCarrito();
+    mostrarMensaje("El carrito esta vacio.", "success");
 });
-
 
 finalizarCompraButton.addEventListener("click", () => {
     if (carrito.length === 0) {
-        alert("El carrito está vacío. Agrega productos antes de finalizar la compra.");
+        mostrarMensaje("El carrito está vacío. Agrega productos antes de finalizar la compra.", "warning");
         return;
     }
 
-    alert("¡Gracias por tu compra! El carrito se vaciará ahora.");
+    mostrarMensaje("¡Gracias por tu compra! El carrito se vaciará ahora.", "success");
     carrito = [];
     localStorage.setItem("carrito", JSON.stringify(carrito));
     renderizarCarrito();
 });
-
 
 renderizarCarrito();
