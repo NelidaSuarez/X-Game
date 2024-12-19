@@ -13,13 +13,13 @@
   }
   
   .globo-notificacion.error {
-    background-color: #f44336; /* Rojo error */
+    background-color: #f44336; 
   }
   
   @keyframes aparecerDesaparecer {
     0% {
       opacity: 0;
-      transform: translateY(-20px); /* Mueve la animación a la parte superior */
+      transform: translateY(-20px); 
     }
     10% {
       opacity: 1;
@@ -31,7 +31,7 @@
     }
     100% {
       opacity: 0;
-      transform: translateY(-20px); /* Sale hacia arriba */
+      transform: translateY(-20px); 
     }
   }
   
