@@ -13,6 +13,7 @@ Este es un proyecto de una tienda en línea dedicada a ofrecer videojuegos para 
 - **Formulario de contacto**: Envíanos un mensaje con cualquier consulta.
 - **Video de introducción**: Mira nuestro video introductorio para sumergirte en el mundo gamer.
 - **Responsive**: La página es completamente adaptativa para diferentes tamaños de pantalla.
+- **funcionalidades de carrito de compras**: agregar carrito, borrar cada item,vaciar carrito y finalizar compra
 
 ## Tecnologías usadas
 
@@ -25,6 +26,6 @@ Este es un proyecto de una tienda en línea dedicada a ofrecer videojuegos para 
 
 
 ## detalles a complementar cuando agreguemos js:
-- **catálogo** : categorias y buscador
+- **catálogo** : categorias y buscador (proximamente)
 - **detalles de productos** : todo lo que conlleve los juegos 
-- **funcionalidades de carrito de compras**: agregar carrito, borrar cada item, sunar restar, vaciar carrito y finalizar compra con tiket ,
+- **funcionalidades de carrito de compras**:  sunar restar,  tiket ,
